@@ -1020,9 +1020,9 @@ footer {
     transition: all 0.8s ease; }
     nav.active {
       display: block;
-      -webkit-transform: translateY(5%);
-      -ms-transform: translateY(5%);
-      transform: translateY(5%);
+      -webkit-transform: translateY(8%);
+      -ms-transform: translateY(8%);
+      transform: translateY(8%);
       -webkit-transition: all 0.8s ease;
       -o-transition: all 0.8s ease;
       transition: all 0.8s ease; }
@@ -1136,6 +1136,9 @@ footer {
     padding-bottom: 300px; } }
 
 @media screen and (max-width: 510px) {
+  .header_burger{
+    top: 15px;
+  }
   nav ul {
     display: block; }
     nav ul li {
